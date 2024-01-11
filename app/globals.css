@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-btn {
+    @apply border border-[#F6B17A] px-5 py-1 rounded-3xl hover:bg-[#F6B17A] hover:text-black transition-colors cursor-pointer;
+  }
+}

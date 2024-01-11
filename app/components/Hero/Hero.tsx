@@ -27,9 +27,12 @@ const Hero = (props: Props) => {
                 strings: [
                   "Hi, I'm Md. Shoaib Akhter Shifat",
                   "Love to explore and learn",
+                  "<TryToSolveProblem />",
                 ],
                 autoStart: true,
                 loop: true,
+                delay: 100,
+                deleteSpeed: 50,
               }}
             />
           </h1>
