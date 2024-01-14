@@ -6,4 +6,7 @@
   .nav-btn {
     @apply border-2 text-black lg:text-inherit border-[#F6B17A] px-5 py-1 rounded-3xl hover:bg-[#F6B17A] hover:text-black transition-colors cursor-pointer;
   }
+  .section-title {
+    @apply absolute top-[100px] text-3xl text-[#F6B17A];
+  }
 }
