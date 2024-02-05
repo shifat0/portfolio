@@ -15,6 +15,17 @@ const Skills = ({}: Props) => {
       >
         Skills
       </motion.h1>
+      <ul className="grid grid-cols-4 gap-10 items-center">
+        <li>Javascript</li>
+        <li>Javascript</li>
+        <li>Javascript</li>
+        <li>Javascript</li>
+        <li>Javascript</li>
+        <li>Javascript</li>
+        <li>Javascript</li>
+        <li>Javascript</li>
+        <li>Javascript</li>
+      </ul>
     </section>
   );
 };
