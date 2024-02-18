@@ -12,7 +12,7 @@ const About = ({}: Props) => {
       whileInView={{ opacity: 1 }}
       transition={{ delay: 2, duration: 1.5 }}
       id="about"
-      className="container relative mx-auto lg:w-1/2 p-4 h-screen flex flex-col justify-center items-center text-center snap-center"
+      className="container relative mx-auto lg:w-1/2 p-4 h-screen flex flex-col items-center text-center snap-center"
     >
       <motion.h1
         initial={{ letterSpacing: 0 }}
@@ -22,7 +22,7 @@ const About = ({}: Props) => {
       >
         About Me
       </motion.h1>
-      <p>
+      <p className="absolute top-48">
         I am Looking for a challenging “Software Developer” position at a
         reputed company where I can use my Development, Technical and Database
         skills to advance my knowledge and help the organization thrive.

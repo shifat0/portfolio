@@ -14,7 +14,7 @@ export const Nav = ({}: Props) => {
   const toogleNav = () => setShowNav(!showNav);
 
   return (
-    <nav className="w-full mx-auto fixed top-0 p-5 flex justify-between items-center bg-[#2D3250] shadow-md z-[9999]">
+    <nav className="w-full mx-auto sticky top-0 p-5 flex justify-between items-center bg-[#2D3250] shadow-md z-[9999]">
       <motion.span
         initial={{ x: -300, opacity: 0, scale: 0.5 }}
         animate={{
