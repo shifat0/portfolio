@@ -57,19 +57,27 @@ export const Nav = ({}: Props) => {
             <FontAwesomeIcon icon={faX} className="text-white cursor-pointer" />
           </button>
           <Link href="#about">
-            <button className="nav-btn w-full">About</button>
+            <button className="nav-btn w-full" onClick={() => toogleNav()}>
+              About
+            </button>
           </Link>
 
           <Link href="#skills">
-            <button className="nav-btn w-full">Skills</button>
+            <button className="nav-btn w-full" onClick={() => toogleNav()}>
+              Skills
+            </button>
           </Link>
 
           <Link href="#projects">
-            <button className="nav-btn w-full">Projects</button>
+            <button className="nav-btn w-full" onClick={() => toogleNav()}>
+              Projects
+            </button>
           </Link>
 
           <Link href="#contact-me">
-            <button className="nav-btn w-full">Contact Me</button>
+            <button className="nav-btn w-full" onClick={() => toogleNav()}>
+              Contact Me
+            </button>
           </Link>
         </div>
 
