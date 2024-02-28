@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import ContactMe from "./components/ContactMe/ContactMe";
 import Hero from "./components/Hero/Hero";
 import { Nav } from "./components/Nav/Nav";
 import Projects from "./components/Projects/Projects";
@@ -12,9 +13,9 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
-      {/* Projects */}
       <Projects />
       {/* Contact Me */}
+      <ContactMe />
       {/* Footer */}
     </main>
   );

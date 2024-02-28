@@ -10,7 +10,7 @@ const About = ({}: Props) => {
     <motion.section
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition={{ delay: 2, duration: 1.5 }}
+      transition={{ duration: 1.5 }}
       id="about"
       className="container relative mx-auto lg:w-1/2 p-4 h-screen flex flex-col justify-evenly items-center text-center snap-center"
     >

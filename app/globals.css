@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply scroll-smooth
+    @apply scroll-smooth;
   }
 }
 
@@ -14,5 +14,8 @@
   }
   .section-title {
     @apply absolute top-20 text-4xl text-[#F6B17A] mb-10;
+  }
+  .contact-items {
+    @apply flex items-center justify-center gap-4 mt-3;
   }
 }
